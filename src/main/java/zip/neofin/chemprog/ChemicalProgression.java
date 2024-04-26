@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package zip.neofin.chemprog;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -32,8 +32,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(ExampleMod.MODID)
-public class ExampleMod
+@Mod(ChemicalProgression.MODID)
+public class ChemicalProgression
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "examplemod";
@@ -66,7 +66,7 @@ public class ExampleMod
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public ExampleMod(IEventBus modEventBus)
+    public ChemicalProgression(IEventBus modEventBus)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

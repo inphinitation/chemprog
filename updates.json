@@ -1,0 +1,10 @@
+{
+  "homepage": "https://modrinth.com/project/chemical-progression/versions",
+  "1.20.4": {
+    "100.1.0": "Added destabilizer, elements, quantum time reversal chamber, chemical creative energy cube"
+  },
+  "promos": {
+    "1.20.4-latest": "100.1.0",
+    "1.20.4-recommended": "100.1.0"
+  }
+}
